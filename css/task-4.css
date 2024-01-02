@@ -1,0 +1,20 @@
+.login-form {
+  display: block;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+button {
+  flex-shrink: 0;
+  margin-top: 16px;
+}
