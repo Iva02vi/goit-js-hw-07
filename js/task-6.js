@@ -21,10 +21,7 @@ const createBoxes = (amount) => {
 }
 
 const destroyBoxes = () => {
-  const newBoxes = document.querySelectorAll('.new-box');
-  newBoxes.forEach(box => {
-    box.remove();
-  });
+  boxes.innerHTML = "";
 }
 
 create.addEventListener('click', () => {
